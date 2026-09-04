@@ -1,0 +1,17 @@
+{
+  "name": "cipher-ai-whatsapp-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "pino": "^9.9.0",
+    "pg": "^8.16.3"
+  }
+}
